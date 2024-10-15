@@ -1,0 +1,147 @@
+body{
+    background-color: rgb(255, 246, 197);
+    margin: 0px;
+}
+.paragrafo{
+    text-indent: 25px;
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(0, 50, 0), rgb(0, 89, 0), rgb(0, 158, 0), rgb(0, 171, 0));
+    color: white;
+    text-align: center;
+    padding-top: 10px; 
+}
+
+
+nav{
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    margin-top: 50px;
+}
+
+nav > a{
+    text-decoration: none;
+    color:rgb(105, 203, 105);
+    font-size: 20px;
+    padding: 15px 15px 10px 15px;
+}
+
+nav > a:hover{
+    background-color:rgb(13, 171, 13);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+
+h2{
+    background-image: linear-gradient(to right, rgb(179, 255, 179), transparent);
+    padding-left: 10px;
+    text-align: left;
+    font-family: "IDroid";
+    font-size: 20px;
+}
+
+
+main{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 0px 6px 0px black;
+    text-align: justify;
+    
+}
+main > h1{
+    font-family: "IDroid";
+    font-size: 25px;
+
+}
+
+main  a{
+  text-decoration: none;
+  background-image: linear-gradient(to right, rgb(179, 255, 179),  rgb(167, 255, 167) );
+  font-weight: bold;
+  padding: 2px 4px 2px 2px;
+}
+
+main a:hover{
+    text-decoration: underline;
+}
+
+main a::after{
+    content: '\1F517';
+}
+
+main img{
+    width: 100%;
+}
+
+.pequeno{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+strong{
+    color: rgb(0, 99, 0);
+   font-weight: bold;
+}
+
+#tabela{
+    background-color: #C5EBD6;
+    border-radius: 20px;
+    
+}
+
+#tabela > h1{
+    border-radius: 20px 20px 0px 0px;
+    background-color:#2FA866;
+    color: white;
+    padding: 10px
+    
+    
+}
+
+#tabela > p{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+   
+}
+
+#tabela >ul{
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+
+
+#video{
+    background-color:rgb(0, 67, 0) ;
+    margin: 0px -20px 30px -20px;
+    padding-left: -20px;
+    padding-right: -20px;
+    padding-top: 20px;
+    padding-bottom: 57%;
+    position: relative;
+}
+
+#video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+
+
+footer{
+    background-color: rgb(0, 67, 0);
+    color: white;
+    height: 30px;
+    align-content: center;
+    text-align: center;
+}
